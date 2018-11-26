@@ -664,10 +664,11 @@ public class menu {
 				System.out.println("");
 				System.out.println("seleccione su idioma");
 
-				System.out.println("-1- Español");
-				System.out.println("-2- Francais");
-				System.out.println("-3- English");
-				System.out.println("-4- Aleman");
+				System.out.println("-1- Español.");
+				System.out.println("-2- Francais.");
+				System.out.println("-3- English.");
+				System.out.println("-4- Aleman.");
+				System.out.println("-5- Italiano.");
 				
 				idioma = idi.nextInt();
 				
@@ -692,6 +693,12 @@ public class menu {
 					
 					i = "al";
 					r = "AL";
+					
+				}
+                if(idioma == 5) {
+					
+					i = "it";
+					r = "IT";
 					
 				}
           
